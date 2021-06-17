@@ -1,0 +1,145 @@
+body, ul, li, h1,h2,a{
+    margin:0;
+    padding: 0;
+    font-family:arial;
+
+}
+
+
+.banner{
+    position:relative;
+    
+}
+.banner img{
+    max-width:100%
+}
+.banner .welcome{
+    background-color: #08e2d700;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    position: absolute;
+    
+    left:0;
+    top: 30%;
+}
+.banner h2 h2{
+    font-size: 74px
+}
+.banner h2 span{
+    font-size: 3em;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+nav{
+    background-color:#000000c4;
+    padding:20px;
+    position:sticky;
+    top:0px;
+}
+nav ul{
+    white-space:nowrap;
+    max-width:1200px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+nav li{
+    width:25%;
+    display:inline-block;
+    font-size:24px;
+    
+    
+    
+}
+nav li a{
+    text-decoration:none;
+    color:#fff3f3;
+    
+}
+nav li a.join{
+    color:#f6f8f8;
+
+}
+main{
+    max-width:100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding:0 40px;
+    box-sizing:border-box;
+    }
+article h3{
+        color: #000000c4;
+        font-size:18px;
+}
+article h4{
+    color: #000000c4;
+    font-size:28px;
+}
+article h2{
+    color: #000000c4;
+    font-size:48px;
+}
+article p{
+    line-height:2em;
+    color:#4B4B4B;
+}
+.images{
+    text-align: center;
+    margin:80px 0;
+    white-space:nowrap;
+}
+.images li{
+    display:inline-block;
+    width:40%;
+    margin:20px 5%;
+
+
+}
+.images li img{
+    max-width: 100%;
+}
+section.join{
+    background: #F4F4F4;
+    text-align:center;
+    padding: 60px 20px;
+    color:#4B4B4B;
+
+}
+.join h2{
+    font-size: 36px;
+}
+footer{
+    background: #000000c4;
+    color:white;
+    padding:10px;
+    text-align:center;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+nav li a:hover{
+    text-decoration:underline;
+
+}
+article p{
+    font-size: 1.2em;
+}
+p::selection{
+    background-color:rgb(0, 255, 191);
+    color:white;
+
+}
+@media screen and (max-width: 960px){
+    .banner .welcome h2{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 700px){
+    .banner .welcome{
+        position: relative;
+        text-align:center;
+    }
+    .banner .welcome br{
+        display: none;
+    }
+}
